@@ -6,8 +6,8 @@
   "scripts": {
     "start": "ts-node src/server.ts",
     "build": "tsc",
-    "docker-build": "docker build -t gfk-assignment-nodejs .",
-    "docker-run": "docker run -p 9871:8000 -d gfk-assignment-nodejs"
+    "docker-build": "docker build -t shrayanshjain9/gfk-assignment .",
+    "docker-run": "docker run -p 9871:8000 -d shrayanshjain9/gfk-assignment"
   },
   "author": "",
   "license": "ISC",
